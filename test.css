@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Product Box Style */
+.product {
+    display: inline-block;
+    width: 250px;
+    border: 2px solid black;
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Product Image */
+.product img {
+    width: 120px;
+    height: 120px;
+}
+
+/* Product Name */
+.product h3 {
+    margin: 10px 0;
+}
+
+/* Price Style */
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+/* Buy Now Button */
+.product a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 6px 12px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Button Hover */
+.product a:hover {
+    background-color: gray;
+}
+
+/* Hover Outline Effect */
+.product:hover {
+    outline: 3px solid blue;
+    outline-offset: 6px;
+}

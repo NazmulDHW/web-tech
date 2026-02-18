@@ -1,1 +1,90 @@
-aha'ela
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="test" type="text/css" href="test.css"/>
+
+    <title>Product Information Box</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .product{
+            display: inline-block;
+            width: 250px;
+            border: 2px solid black;
+            background-color: #f2f2f2;
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+        }
+
+        .product img{
+            width: 120px;
+            height: 120px;
+        }
+
+        .product:hover{
+            outline: 3px solid blue;
+            outline-offset: 6px;
+        }
+
+        .price{
+            font-weight: bold;
+            color: green;
+        }
+
+        a{
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            padding: 6px 10px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        a:hover{
+            background-color: gray;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Product Display Section</h1>
+
+    <!-- Product 1 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/120" alt="Laptop">
+        <h3>Laptop</h3>
+        <p>High performance laptop for office and gaming use.</p>
+        <p class="price">$850</p>
+        <a href="#">Buy Now</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/120" alt="Headphones">
+        <h3>Headphones</h3>
+        <p>Noise cancelling wireless headphones.</p>
+        <p class="price">$120</p>
+        <a href="#">Buy Now</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/120" alt="Smartwatch">
+        <h3>Smartwatch</h3>
+        <p>Track fitness, calls and notifications easily.</p>
+        <p class="price">$200</p>
+        <a href="#">Buy Now</a>
+    </div>
+    <img src="images/laptop.jpg" alt="Laptop">
+
+
+
+</body>
+</html>
