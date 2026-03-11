@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="connect.css" />
+<script src="short.js"></script>
+</head>
+
+<body>
+
+<form onsubmit="return collectData();">
+
+<h1>Student Login Form</h1>
+
+<p style="color:red;">Wrong Submit Count: <span id="count">0</span></p>
+
+<table>
+
+<tr>
+<td>Student Email</td>
+<td>
+<input type="text"
+placeholder="Enter your Email"
+id="Email"
+onchange="checkEmail();"
+/>
+</td>
+
+<td>
+<p id="EmailErr"></p>
+</td>
+</tr>
+
+
+<tr>
+<td>Student Password</td>
+
+<td>
+<input type="password"
+placeholder="Enter your Password"
+id="Password"
+onkeyup="checkPassword();"
+/>
+</td>
+
+<td>
+<p id="PasswordErr"></p>
+</td>
+
+</tr>
+
+<tr>
+<td colspan="2" style="text-align:center;">
+<button type="submit">Submit</button>
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
